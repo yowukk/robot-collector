@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_pkg</name>
+  <version>0.0.1</version>
+  <description>
+    The my_pkg package provides wonderful functionality.
+  </description>
+  <author email="me@mymail.ru">Ivan Ivanov</author>
+  <license>MIT</license>
+  <maintainer email="me@mymail.ru">Ivan Ivanov</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <!--<depend>roscpp</depend>-->
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>detection_msgs</depend>
+</package>
